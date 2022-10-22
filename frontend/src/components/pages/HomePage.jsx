@@ -3,13 +3,17 @@ import styled from "styled-components";
 const HomePage = () => {
   return (
     <ContenedorPrincipal>
-      <h1>Esto es el home</h1>
+      <H1deprueba>Esto es el home</H1deprueba>
     </ContenedorPrincipal>
   );
 };
 
 const ContenedorPrincipal = styled.div`
   background-color: lightgreen;
+`;
+
+const H1deprueba = styled.h1`
+  color: purple;
 `;
 
 export default HomePage;
